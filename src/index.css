@@ -336,3 +336,22 @@
         top: 1832px;
     }
 }
+
+@media screen and (max-width :768px) {
+    #headline{
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        font-family: bebas-neue-regular,sans-serif;
+    }
+    .disElement{
+        display: block;
+    }
+}   
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  

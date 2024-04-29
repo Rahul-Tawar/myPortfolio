@@ -4,8 +4,7 @@ import { motion, useTransform, useScroll } from "framer-motion";
 import Wrapper from "./Wrapper";
 import SkillIcon from "./SkillIcon";
 import Service from "./Service";
-import Portfolio from "./Portfolio";
-import Achievements from "./Achievements";
+
 import Div from "./Div";
 
 // IMAGES
@@ -19,7 +18,6 @@ import sk7 from "../assets/sk-7.png";
 import sk8 from "../assets/sk-8.png";
 import sk9 from "../assets/sk-9.png";
 import sk10 from "../assets/sk-10.png";
-import sk11 from "../assets/sk-11.png";
 import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
@@ -55,7 +53,7 @@ const Skills = () => {
                     <SkillIcon path={sk8} />
                     <SkillIcon path={sk9} />
                     <SkillIcon path={sk10} />
-                    <SkillIcon path={sk11} />
+                    
                 </Div>
                 {/* SKILL ICONS END */}
 
@@ -65,51 +63,21 @@ const Skills = () => {
                     <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
                         <Service
                             num="1"
-                            title="Ui/Ux Design"
-                            desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-                            data={[
-                                "Prototype",
-                                "Wireframe",
-                                "User Experience",
-                                "Prototype",
-                                "Prototype",
-                            ]}
+                            title="Front-end Development."
+                            desc="My front-end development service delivers visually stunning websites with modern designs. Combining creativity and technical expertise, I create seamless user experiences  elevate your online presence effectively."
                         />
                         <Service
                             num="2"
-                            title="Graphic Designing"
-                            desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-                            data={[
-                                "Prototype",
-                                "Wireframe",
-                                "User Experience",
-                                "Prototype",
-                                "Prototype",
-                            ]}
+                            title="Web Scraping"
+                            desc="My web scraping service extracts valuable data from online sources, providing accurate insights tailored to your needs. Gain a competitive edge and make informed decisions with our advanced techniques."
+                           
                         />
                         <Service
                             num="3"
-                            title="Frontend Development"
-                            desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-                            data={[
-                                "Prototype",
-                                "Wireframe",
-                                "User Experience",
-                                "Prototype",
-                                "Prototype",
-                            ]}
-                        />
-                        <Service
-                            num="4"
                             title="Wordpress Development"
-                            desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-                            data={[
-                                "Prototype",
-                                "Wireframe",
-                                "User Experience",
-                                "Prototype",
-                                "Prototype",
-                            ]}
+                            desc="
+                            Our WordPress development service crafts tailored solutions, creating robust websites and custom plugins to ensure seamless functionality and an engaging user experience for your audience."
+                           
                         />
                     </div>
                     {/* SERVICES END */}
@@ -138,8 +106,6 @@ const Skills = () => {
                 </div>
                 {/* SERVICES SECTION END */}
 
-                <Portfolio />
-                <Achievements />
             </Wrapper>
         </div>
     );

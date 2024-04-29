@@ -14,10 +14,10 @@ const Form = () => {
 
         // Below credentials are required to link your email id with contact form you can create your credentials in emailjs.com
         send(
-            "", // Service ID
-            "", // Template ID
+            "service_nb77h3t", // Service ID
+            "template_arqe75m", // Template ID
             userInput,
-            "" // Public Key - https://dashboard.emailjs.com/admin/account
+            "DGgLI2cZf0crHqxcv" // Public Key - https://dashboard.emailjs.com/admin/account
         )
             .then((response) => {
                 console.log("SUCCESS!", response.status, response.text);
@@ -32,7 +32,7 @@ const Form = () => {
 
     const formSuccess = () => {
         toast(
-            "Thanks for submitting your Query, I will get back to you shortly."
+            "Thanks for submitting your Query, I'll catch up with you shortly."
         );
 
         // Resetting Form
